@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#topo{
+    background-image: url(../img/lasanha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 25px 15px;
+}
+.circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background:rgba(139, 128, 108,0.4);
+}
+.info{
+    padding: 25px 0px 0px 0px;
+    margin:0px 0px;
+    font-size: 20px;
+}
+.info p{
+    position: relative;
+    top:-30px;
+    margin: 0px;
+    padding: auto;
+}
+.info h1{
+    font-weight:bold;
+}
+.info span{
+    position: relative;
+    top:-5px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.entrega{
+    position: relative;
+    top:-10px;
+}
+.butao{
+    padding: 10px;
+    border:0px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
+#seta_right{
+
+margin:0px 0px 0px 70px;
+
+}
+.avalie{
+    padding: 5px 0px 0px 0px;
+    width: 100%;
+}
+.avalie .col-8{
+    padding: 0px 0px 0px 12px;
+}
+.avalie .col-8 >span{
+    font-weight: bold;
+    color: #FFCA75;
+
+}
+.avalie .col{
+    padding: 0px 0px 0px 0px;
+}
+.pesquisa{
+    padding: 5px 0px 0px 0px;
+    width: 100%;
+}
+.pesquisa .col{
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+}
+#divi{
+    padding: 2px;
+}
+.cupom{
+    background-color: rgba(229, 242, 233, 0.9);
+    color: #58A07A;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.cupom #offer{
+    transform: rotate(90deg);
+    margin:0px 10px 0px 0px;
+    width: 18px;
+    
+}
+.row .col-12{
+ padding: 15px 12px;
+}
+.oferta{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: justify;
+}
+.oferta img{
+    width: 100%;
+}
+.oferta .col{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.oferta #desconto{
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-bottom: 5px;
+}
+.oferta #preco{
+    font-weight: bold;
+    color: green;
+    padding-bottom: 5px;
+}
+.pi #desconto{
+    font-size: 14px;
+    text-decoration: line-through;
+    padding-bottom: 5px;
+}
+.pi #preco{
+    font-weight: bold;
+    color: green;
+    padding-bottom: 5px;
+}
